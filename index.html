@@ -71,8 +71,8 @@
                       <i class="fa fa-linux fa-stack-1x text-white"></i>
                       
                     </span>
-                    <div class="clear">
-                      <span class="h3 block m-t-xs"><strong>10</strong></span>
+                    <div>
+                      <span class="h3 block m-t-xs"><strong>0</strong></span>
                       <small class="text-muted text-uc">Count</small>
                     </div>
                   </div>
@@ -82,8 +82,8 @@
                       <i class="fa fa-play fa-stack-1x text-white"></i>
                       <span class="easypiechart pos-abt" data-percent="100" data-line-width="4" data-track-Color="#fff" data-scale-Color="false" data-size="50"></span>
                     </span>
-                    <div class="clear">
-                      <span class="h3 block m-t-xs"><strong>5</strong></span>
+                    <div>
+                      <span class="h3 block m-t-xs"><strong>0</strong></span>
                       <small class="text-muted text-uc">Active</small>
                     </div>
                   </div>
@@ -93,8 +93,8 @@
                       <i class="fa fa-stop fa-stack-1x text-white"></i>
                       <span class="easypiechart pos-abt" data-percent="100" data-line-width="4" data-track-Color="#fff" data-scale-Color="false" data-size="50"></span>
                     </span>
-                    <div class="clear">
-                      <span class="h3 block m-t-xs"><strong>2</strong></span>
+                    <div>
+                      <span class="h3 block m-t-xs"><strong>0</strong></span>
                       <small class="text-muted text-uc">Inactive</small>
                     </div>
                   </div>
@@ -103,8 +103,8 @@
                       <i class="fa fa-circle fa-stack-2x icon-muted"></i>
                       <i class="fa fa-tasks fa-stack-1x text-white"></i>
                     </span>
-                    <div class="clear">
-                      <span class="h3 block m-t-xs"><strong>350Gb</strong></span>
+                    <div>
+                      <span class="h3 block m-t-xs"><strong>0</strong></span>
                       <small class="text-muted text-uc">Storage</small>
                     </div>
                   </div>
@@ -151,58 +151,24 @@
                     <table class="table table-striped m-b-none">
                       <thead>
                           <tr>
-                              <th width="60%">Error</th>
-                              <th width="15%">Database</th>
-                              <th width="15%">Service</th>
-                              <th width="10%">Count</th>
+                              <th width="15%">Name</th>
+                              <th width="15%">Position</th>
+                              <th width="15%">Office</th>
+                              <th width="15%">Extn.</th>
+                              <th width="15%">Start date</th>
+                              <th width="15%">Salary</th>
                             </tr>
-    
                       </thead>
-                      <tbody>
-                            <tr>
-                              <td>Database not found</td>
-                              <td>MongoDB</td>
-                              <td>Dump</td>
-                              <td>52</td>
+                      <tbody>                      
+                          <tr>
+                              <th width="15%">Name</th>
+                              <th width="15%">Position</th>
+                              <th width="15%">Office</th>
+                              <th width="15%">Extn.</th>
+                              <th width="15%">Start date</th>
+                              <th width="15%">Salary</th>
                             </tr>
-                            <tr>
-                                <td>Bad key</td>
-                                <td>MongoDB</td>
-                                <td>Operator</td>
-                                <td>40</td>
-                            </tr>
-                            <tr>
-                                <td>RMQ Connection failed</td>
-                                <td> - </td>
-                                <td>Operator</td>
-                                <td>25</td>
-                            </tr>
-                            <tr>
-                                <td>Database not found</td>
-                                <td>MongoDB</td>
-                                <td>Restore</td>
-                                <td>19</td>
-                            </tr>
-                            <tr>
-                                <td>Error #1243</td>
-                                <td> - </td>
-                                <td>StatCollector</td>
-                                <td>12</td>
-                              </tr>
-                              <tr>
-                                  <td>PSQL driver not found</td>
-                                  <td>PSQL</td>
-                                  <td>Aggregator</td>
-                                  <td>7</td>
-                              </tr>
-                              <tr>
-                                  <td>Connection timeout</td>
-                                  <td> - </td>
-                                  <td>Operator</td>
-                                  <td>5</td>
-                              </tr>
-                      
-                          </tbody>
+                      </tbody>
                     </table>
                   </section>
                 </div>
@@ -232,6 +198,7 @@
   <script src="js/charts/flot/jquery.flot.pie.min.js"></script>
   <script src="js/charts/flot/jquery.flot.grow.js"></script>
   <script src="js/charts/flot/demo.js"></script>
+  <script src="js/datatables/jquery.dataTables.min.js"></script>
 
   <script src="js/sortable/jquery.sortable.js"></script>
 </body>
