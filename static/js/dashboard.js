@@ -1,7 +1,7 @@
 function FillTasks(){
     var da1 = [],
     series = 3;
-    chart_names = ['Proccess', 'Success', 'Fail'];
+    chart_names = ['New', 'Success', 'Fail'];
     for (var i = 0; i < series; i++) {
     da1[i] = {
         label: chart_names[i],
